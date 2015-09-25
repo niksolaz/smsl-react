@@ -3,7 +3,7 @@ var app = express();
 var react =require('react');
 var http = require('http').Server(app);
 var port = process.env.PORT || 3000;
-var document_Main = require('./main.js');
+var document_Main = require('./src/main.js');
 
 app.set('view engine','html');
 
