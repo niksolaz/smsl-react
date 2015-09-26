@@ -1,14 +1,11 @@
 var express = require('express');
 var app = express();
-var react =require('react');
 var http = require('http').Server(app);
 var port = process.env.PORT || 3000;
-var document_Main = require('./src/main.js');
 
-app.set('view engine','html');
 
 app.get('/',function(req,res){
-	res.render(document_Main);
+	res.send('<h1>Hello Smsl React<h1>');
 });
 
 app.listen(port);
