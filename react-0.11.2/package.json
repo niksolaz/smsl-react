@@ -1,0 +1,14 @@
+{
+  "name": "smsl",
+  "version": "1.0.0",
+  "description": "React is a JavaScript library for building user interfaces.",
+  "main": "server.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "nik solaz",
+  "license": "MIT"
+}
