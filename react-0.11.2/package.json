@@ -10,5 +10,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "nik solaz",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jsx-loader": "^0.13.2",
+    "react": "^0.13.3",
+    "react-router": "^1.0.0-rc1",
+    "static-site-generator-webpack-plugin": "^1.1.2",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.0"
+  }
 }
