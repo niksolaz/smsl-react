@@ -1,4 +1,11 @@
 body
 {
-	color:#33ff77;
+	background-color:#33ff77;
+}
+
+.smslMain
+{
+	text-align: center;
+	background-color:#33cc77;
+	color:white;
 }
