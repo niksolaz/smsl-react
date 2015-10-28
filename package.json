@@ -2,7 +2,10 @@
   "name": "smsl-react",
   "version": "1.0.0",
   "description": "visual smsl ",
-  "main": "main.js",
+  "entry": [
+    "main.js",
+    "main_smsl.jsx"
+    ],
   "dependencies": {
     "react": "^0.12.0",
     "react-dom": "^0.14.0",
