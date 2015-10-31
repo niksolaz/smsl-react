@@ -1,4 +1,7 @@
 
+var React = require('react');
+var ReactDOM = require('react-dom');
+
 var SmslMessage = React.createClass({
 	displayName:'SmslMessage',
 
