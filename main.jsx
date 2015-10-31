@@ -1,11 +1,17 @@
 
 var SmslMessage = React.createClass({
-  render: function() {
-    return (<div>Welcome to {this.props.name}</div>);
-  }
+	displayName:'SmslMessage',
+
+	render:function(){
+		return (
+			React.createElement('div',{classaName:"smslMessage"},
+				" Welcome on Smsl !!!"
+			)
+		);
+	}
 });
 
 ReactDOM.render(
-	<SmslMessage name="Smsl" />,
-	document.getElementById("smslContent")
+	React.createElement(SmslMessage,null),
+	document.getElementById('content')
 );
